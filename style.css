@@ -207,6 +207,7 @@ header.shadow .logo {
     box-shadow: 0 4px 14px hsl(35deg 25% 15% / 10%);
     padding: 15px;
     border-radius: 0.5rem;
+    animation: fadeEffect 1s ease-in-out;
 }
 
 .post-img {
@@ -576,4 +577,9 @@ footer p{
     footer .footer-container .contactBox{
         width: 100%;
     }
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
